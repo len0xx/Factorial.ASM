@@ -4,19 +4,9 @@ This is a simple example of writing a function in Assembly and then importing it
 
 ### Before building the executable:
 
-Install nasm (Netwide Assembler):
+Install nasm (Netwide Assembler), GNU C Compiler and "make":
 ```bash
-sudo apt install nasm
-```
-
-Install GNU C Compiler:
-```bash
-sudo apt install gcc
-```
-
-Install make:
-```bash
-sudo apt install make
+sudo apt install nasm gcc make
 ```
 
 #### Important note:
