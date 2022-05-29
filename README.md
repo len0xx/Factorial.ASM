@@ -9,7 +9,10 @@ gcc -m32 fact.o factorial.c -o main
 ```
 Or just clone the current repository to get both executable and source files
 
-To run the compiled program do this:
+The repository was developed in Linux, so there's no way of building the executable in MacOS or Windows yet.
+Perhaps it will happen in the foreseeable future.
+
+To run the compiled program run this command:
 ```bash
 ./main
 ```
