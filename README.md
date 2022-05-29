@@ -14,6 +14,11 @@ Install GNU C Compiler:
 sudo apt install gcc
 ```
 
+Install make:
+```bash
+sudo apt install make
+```
+
 #### Important note:
 In order to compile this executable in 32-bit compatible format you will also need to install 32-bit libraries with this command:
 ```bash
@@ -23,8 +28,7 @@ sudo apt install gcc-multilib
 ### Build the executables (Linux):
 
 ```bash
-nasm -f elf32 fact.asm -o fact.o
-gcc -m32 fact.o factorial.c -o main
+make factorial
 ```
 
 The repository was developed in Linux, so there's no way of building the executable in MacOS or Windows yet.
@@ -32,5 +36,5 @@ Perhaps it will happen in the foreseeable future.
 
 To run the compiled program run this command:
 ```bash
-./main
+./bin/main
 ```
