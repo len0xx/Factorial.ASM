@@ -2,7 +2,7 @@
 
 This is a simple example of writing a function in Assembly and then importing it to C program.
 
-### Before building the executable:
+## Prerequisites:
 
 Install nasm (Netwide Assembler), GNU C Compiler and "make":
 ```bash
@@ -15,14 +15,20 @@ In order to compile this executable in 32-bit compatible format you will also ne
 sudo apt install gcc-multilib
 ```
 
-### Build the executables (Linux):
+## Build the executable:
+
+### Linux
 
 ```bash
 make factorial
 ```
 
-The repository was developed in Linux, so there's no way of building the executable in MacOS or Windows yet.
+### Windows and MacOS
+
+The repository was developed in Linux, so there's no way of building the executable in MacOS or Windows as of yet.
 Perhaps it will happen in the foreseeable future.
+
+## Running the program
 
 To run the compiled program run this command:
 ```bash
