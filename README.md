@@ -1,6 +1,6 @@
 # Factorial.ASM
 
-This is a simple example of writing a function in Assembly and then importing it to C program.
+This is a simple example of writing a function in Assembly and then exporting it to C program.
 
 ## Prerequisites:
 
